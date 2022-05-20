@@ -1,0 +1,20 @@
+POST http://www.api.papertrades.nl/auth/register
+Content-Type: application/json
+
+{
+    "fullname": "Sem de Jong",
+    "username": "semdejo",
+    "email": "semdejo2003@gmail.com",
+    "password": "Sem2003!"
+}
+###
+POST http://www.api.papertrades.nl/auth/login
+Content-Type: application/json
+
+{
+    "email": "semdejo2003@gmail.com",
+    "password": "Sem2003!"
+}
+
+###
+GET http://localhost:7000/ping

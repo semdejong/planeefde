@@ -1,0 +1,14 @@
+{
+  "name": "planeefde",
+  "version": "1.0.0",
+  "description": "a website for eefde",
+  "main": "index.js",
+  "scripts": {
+    "build-server-watch": "cd server && npm run devStart",
+    "build-client-watch": "cd client && npm run devStart",
+    "setup": "cd client && npm install && cd .. && cd server && npm install",
+    "devStart": "npm run build-server-watch && npm run build-client-watch"
+  },
+  "author": "Sem de Jong",
+  "license": "ISC"
+}
